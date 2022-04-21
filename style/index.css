@@ -344,3 +344,175 @@ color: #957554;
 
     color: #FFFFFF;
 }
+
+.Book-section{
+    /* border: 3px solid red; */
+    width: 100%;
+    margin-left: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    
+    color: #957554;
+}
+
+.BookButton{
+    width: 230px;
+    height: 56px;
+    
+    background: #DFAA5B;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Contact Dialog ?at the last layer of the first UI */
+
+.Contact-Dialog{
+    background-color: #111111;
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 135px;
+    padding: 30px;
+    margin-top: 150px;
+      
+}
+
+.first-Contact-Div{
+    color: #FFFFFF;
+    margin: 20px;
+
+}
+
+.second-Contact-Div{
+    display: flex;
+    margin-right: 260px;
+
+}
+
+.Contact-Dialog .first-Contact-Div h3{
+    color: #FFFFFF;
+}
+
+pre{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+    
+    color: white;
+}
+
+.list-contact ul li{
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 100;
+    padding-bottom: 15px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+
+
+.contactInput h3{
+    color: #FFFFFF;
+    position: absolute;
+    width: 268px;
+    height: 34px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+input{
+    position: absolute;
+    width: 251px;
+    height: 65px;
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 100px;
+    border: none;
+}
+
+.SubscribeButton{
+    position: absolute;
+    width: 251px;
+    height: 65px;
+    
+    background: #DFAA5B;
+    border-radius: 10px;
+    margin-top: 190px;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+.list-contact{
+padding-right: 200px;
+}
+
+
+.Address{
+    color: white;
+}
+
+
+
+.Contact-Dialog .contactInput{
+    display: flex;
+    flex-direction: column;
+}
