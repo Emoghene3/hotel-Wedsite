@@ -1,3 +1,6 @@
+body{
+    margin: 10px;
+}
 header .hero{
     display: flex;
     flex-direction: column;
@@ -48,7 +51,7 @@ header .hero nav ul li{
     border: none;
    color: #00000080;
    width: 192px;
-   height: 40px;
+   height: 45px;
    left: 0px;
    top: 268px;
    background: #FFFFFF;
@@ -63,24 +66,18 @@ header .hero nav ul li{
 
 .banner{
     background-image: url('/image/banner.svg');
-    height: 788px;
-    left: 0px;
-    top: 200px;
-    padding: 400px;
+    height: 700px;
     background-repeat: no-repeat;
 
 }
 h2{
     /* padding-top: 193px; */
     position: absolute;
-    width: 987px;
-    height: 106px;
-    left: 244px;
-    top: 929px;
-    
+     padding: 230px;
+     padding-top: 260px;
     font-family: 'Segoe UI';
     font-style: normal;
-    font-weight: 650;
+    font-weight: 550;
     font-size: 70px;
     line-height: 106px;
     
@@ -94,10 +91,9 @@ h2{
 p{ 
     /* padding-top: 210px; */
     position: absolute;
-    width: 474px;
-    height: 28px;
-    left: 474px;
-    top: 1060px;
+    padding-left: 420px;
+    padding-top: 390px;
+
     
     font-family: 'Ubuntu';
     font-style: normal;
@@ -115,10 +111,10 @@ p{
 .explore{ 
     /* margin-top: 200px; */
     position: absolute;
-    width: 200px;
-    height: 55px;
-    left: 570px;
-    top: 1130px;
+   margin-left: 515px;
+    margin-top: 465px;
+    height: 50px;
+    width: 250px;
     
     background: #DFAA5B;
     border-radius: 10px;
@@ -148,13 +144,16 @@ header .hero .calender-section{
 
 .Facilities-container{ 
     position: absolute;
+    margin-top: 560px;
+    margin-left: 135px;
     width: 1019px;
     height: 189px;
-    left: 200px;
-    top: 1389px;
     background: #FFFFFF;
     border-radius: 10px;
     display: flex;
+    /* border-radius: 12px; */
+    padding-bottom: 120px;
+   
 }
 
 .Facilities-container .facility{
@@ -221,4 +220,127 @@ color: #957554;
 
 .searchButton{
     background-color: white;
+}
+
+.RoomsAndRates{
+    /* margin-top: 270px; */
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 70px;
+    margin-right: 100px;
+    width: 1019px;
+    /*height: 189px; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    /* border-radius: 12px; */
+    padding-bottom: 120px;
+    margin-top: 830px;
+
+}
+
+
+
+.rooms{
+    margin: 30px;
+}
+.first-rooms{
+    display: flex;
+    padding-bottom: 60px;
+   
+}
+
+.second-rooms{
+    display: flex;
+}
+
+.StandardTwinRoom{
+    position: relative;
+    padding: 0px;
+    margin-left: 30px;
+    
+}
+
+.StandardRoom{
+    position: relative;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.StandardViewRoom{
+    position: relative;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.DeluxeRoom{
+    position: relative;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.imgR{
+    height: 400px;
+    width: 500px;
+}
+
+ .RoomsAndRates .rates  .rooms .first-rooms .StandardRoom img{
+     padding-top: 0px;
+     padding-bottom: 30px;
+     height: 400px;
+     width: 500px;
+
+}
+
+
+.RoomsAndRatesh3{ 
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    
+    color: #957554;
+    /* text-align: center; */
+    padding-left: 420px;
+}
+
+.h3RoomRate{
+    position: absolute;
+    padding-top: 195px;
+    padding-left: 100px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+
+}
+
+.buttonR{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 100px;
+    position: absolute;
+    width: 244px;
+    height: 45px;
+
+    background: #DFAA5B;
+    border-radius: 10px;
+    border: none;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+/* identical to box height */
+
+
+    color: #FFFFFF;
 }
