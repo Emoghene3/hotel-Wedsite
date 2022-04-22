@@ -33,34 +33,77 @@ header .hero nav ul li{
 
 }
 .dropdown-container{
+    position: relative;
     background-color: #111111;
-    height: 100px;
+    height: 110px;
     width: 1400px;
-    left: 0px;
-    top: 241px;
     border-radius: 0px;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    padding: 20px;
+}
+.inputcheck{
+    align-items: center;
+    padding-left: 250px;
 }
 
 .rectangle{
     padding-top: 30px;
-    padding-left: 300px;  
+    padding-left: 230px;  
     border: none;
+    align-items: center;
+    
+    
 }
 
-.rectangleDesign{
-    border: none;
-   color: #00000080;
+select{
    width: 192px;
    height: 45px;
-   left: 0px;
-   top: 268px;
-   background: #FFFFFF;
+   border: none;
    border-radius: 10px;
+   margin-right: 10px;
+   
+}
+
+
+.CheckIn{
+    width: 192px;
+    height: 45px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.CheckOut{
+    width: 192px;
+    height: 45px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    justify-content: space-between;
 }
 
 #CheckAvailability{
     background: #DFAA5B;
     color: white;
+    
+
+    border: none;
+   width: 192px;
+   height: 45px;
+   border-radius: 10px;
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 23px;
+   /* identical to box height */
+   
+   
+   color: #FFFFFF;
 }
 
 
@@ -350,7 +393,7 @@ color: #957554;
     width: 100%;
     margin-left: 60px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -358,7 +401,7 @@ color: #957554;
     line-height: 52px;
     /* identical to box height */
     
-    
+    margin-bottom: 0px;
     color: #957554;
 }
 
@@ -388,27 +431,36 @@ color: #957554;
     background-color: #111111;
     display: flex; 
     justify-content: space-between;
-    margin-left: 135px;
-    padding: 30px;
-    margin-top: 150px;
-      
+    /* padding: 30px; */
+    /* margin-top: 150px; */
+    width: 1400px;
+    margin-top: 1500px;
+    padding: 40px;
+    width: 1250px;
 }
 
 .first-Contact-Div{
     color: #FFFFFF;
-    margin: 20px;
+    margin: px;
 
 }
 
 .second-Contact-Div{
     display: flex;
-    margin-right: 260px;
+    margin-right: 250px;
+
 
 }
+
+.LogoIcon{
+    padding-left: 0px;
+}
+
 
 .Contact-Dialog .first-Contact-Div h3{
     color: #FFFFFF;
 }
+
 
 pre{
     font-family: 'Ubuntu';
@@ -420,18 +472,32 @@ pre{
     color: white;
 }
 
+.list-contact ul{
+    padding-right: 360px;
+
+    
+}
+
+
+.AddressNumber{
+    padding: 13px;
+}
+
+
 .list-contact ul li{
+    margin-top: 30px;
     list-style: none;
     color: #FFFFFF;
     font-weight: 100;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 18px;
     
     color: #FFFFFF;
+    
 }
 
 
@@ -452,7 +518,7 @@ pre{
     padding-top: 10px;
 }
 
-input{
+.input{
     position: absolute;
     width: 251px;
     height: 65px;
@@ -495,15 +561,16 @@ input::placeholder{
     
     
     color: rgba(0, 0, 0, 0.5);
+    border: none;
 }
 
 
 
 
 
-.list-contact{
+/* .list-contact{
 padding-right: 200px;
-}
+} */
 
 
 .Address{
@@ -515,4 +582,5 @@ padding-right: 200px;
 .Contact-Dialog .contactInput{
     display: flex;
     flex-direction: column;
+    /* padding-right: 100px; */
 }
